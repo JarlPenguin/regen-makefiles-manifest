@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          review="review.lineageos.org" 
+          revision="lineage-16.0" />
+
+  <default remote="lineage"
+           sync-c="true"
+           sync-j="4" />
+
+  <!-- LineageOS Projects -->
+  <project path="vendor/lineage" name="android_vendor_lineage" />
+
+</manifest>
