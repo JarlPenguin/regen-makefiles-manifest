@@ -4,7 +4,7 @@
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
           review="review.lineageos.org" 
-          revision="lineage-16.0" />
+          revision="lineage-17.0" />
 
   <default remote="lineage"
            sync-c="true"
